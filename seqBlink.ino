@@ -24,14 +24,14 @@ void loop() {
   //左龙
   for (int i = 2; i < 13; i++) {
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 2; i < 13; i++) {
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
   delay(300);
 
@@ -40,14 +40,14 @@ void loop() {
   //右龙
   for (int i = 12; i > 1; i--) {
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 12; i > 1; i--) {
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
 
   delay (300);
@@ -59,15 +59,15 @@ void loop() {
   for (int i = 2; i < 13; i++) {
     if (i % 2 == 0) continue;
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 2; i < 13; i++) {
     if (i % 2 == 0) continue;
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
   delay(300);
 
@@ -75,15 +75,15 @@ void loop() {
   for (int i = 12; i > 1; i--) {
     if (i % 2 == 0) continue;
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 12; i > 1; i--) {
     if (i % 2 == 0) continue;
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
 
 
@@ -93,15 +93,15 @@ void loop() {
   for (int i = 2; i < 13; i++) {
     if (i % 2 == 1) continue;
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 2; i < 13; i++) {
     if (i % 2 == 1) continue;
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
   delay(300);
 
@@ -109,15 +109,15 @@ void loop() {
   for (int i = 12; i > 1; i--) {
     if (i % 2 == 1) continue;
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    delay(30);                       
   }
 
   delay (300);
 
   for (int i = 12; i > 1; i--) {
     if (i % 2 == 1) continue;
-    digitalWrite(i, LOW);   // turn the LED on (HIGH is the voltage level)
-    delay(30);                       // wait for a second
+    digitalWrite(i, LOW);   // turn the LED off (LOW is the voltage level)
+    delay(30);                       
   }
 
   //###############
@@ -129,7 +129,7 @@ void loop() {
   for (int i = 2; i < 13; i++)
   {
     digitalWrite(i, HIGH);   // turn the LED on (HIGH is the voltage level)
-    delay(300);                       // wait for a second
+    delay(300);                       
     digitalWrite(i, LOW);    // turn the LED off by making the voltage LOW
     delay(300);
   }
